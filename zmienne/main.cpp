@@ -7,7 +7,8 @@
 #include <avr/io.h>
 int main()
 {
-	PORTD = (1 << 6);
+	PORTD = (1 << 1);
+	tu bedzie i2c
 }
 
 
