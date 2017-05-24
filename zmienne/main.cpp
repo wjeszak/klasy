@@ -5,6 +5,7 @@
  *      Author: tomek
  */
 #include <avr/io.h>
+#include "lcd.h"
 int main()
 {
 	PORTD = (1 << 6);
