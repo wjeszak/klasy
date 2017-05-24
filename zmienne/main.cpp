@@ -7,7 +7,7 @@
 #include <avr/io.h>
 int main()
 {
-	PORTD = (1 << 7);
+	PORTD = (1 << 6);
 }
 
 
